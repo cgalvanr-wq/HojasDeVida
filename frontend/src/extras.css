@@ -1,0 +1,9 @@
+/* Reemplaza el efecto $(".tarjeta").fadeIn(1000) de jQuery de la Unidad 2 */
+@keyframes aparecer {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.tarjeta { animation: aparecer 1s ease; }
+
+/* Panel administrativo */
+.admin-tabla td, .admin-tabla th { vertical-align: middle; }
